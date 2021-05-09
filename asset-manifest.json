@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/react-linkedin-quiz/static/css/main.f32ad09b.chunk.css",
-    "main.js": "/react-linkedin-quiz/static/js/main.06c54c33.chunk.js",
-    "main.js.map": "/react-linkedin-quiz/static/js/main.06c54c33.chunk.js.map",
-    "runtime-main.js": "/react-linkedin-quiz/static/js/runtime-main.61107eae.js",
-    "runtime-main.js.map": "/react-linkedin-quiz/static/js/runtime-main.61107eae.js.map",
-    "static/js/2.f7e437e3.chunk.js": "/react-linkedin-quiz/static/js/2.f7e437e3.chunk.js",
-    "static/js/2.f7e437e3.chunk.js.map": "/react-linkedin-quiz/static/js/2.f7e437e3.chunk.js.map",
-    "static/js/3.6e2c805d.chunk.js": "/react-linkedin-quiz/static/js/3.6e2c805d.chunk.js",
-    "static/js/3.6e2c805d.chunk.js.map": "/react-linkedin-quiz/static/js/3.6e2c805d.chunk.js.map",
+    "main.css": "/react-linkedin-quiz/static/css/main.10c89899.chunk.css",
+    "main.js": "/react-linkedin-quiz/static/js/main.e8d6402e.chunk.js",
+    "main.js.map": "/react-linkedin-quiz/static/js/main.e8d6402e.chunk.js.map",
+    "runtime-main.js": "/react-linkedin-quiz/static/js/runtime-main.501fbb64.js",
+    "runtime-main.js.map": "/react-linkedin-quiz/static/js/runtime-main.501fbb64.js.map",
+    "static/js/2.8bd0ba1a.chunk.js": "/react-linkedin-quiz/static/js/2.8bd0ba1a.chunk.js",
+    "static/js/2.8bd0ba1a.chunk.js.map": "/react-linkedin-quiz/static/js/2.8bd0ba1a.chunk.js.map",
+    "static/js/3.b435b9a0.chunk.js": "/react-linkedin-quiz/static/js/3.b435b9a0.chunk.js",
+    "static/js/3.b435b9a0.chunk.js.map": "/react-linkedin-quiz/static/js/3.b435b9a0.chunk.js.map",
     "index.html": "/react-linkedin-quiz/index.html",
-    "static/css/main.f32ad09b.chunk.css.map": "/react-linkedin-quiz/static/css/main.f32ad09b.chunk.css.map",
-    "static/js/2.f7e437e3.chunk.js.LICENSE.txt": "/react-linkedin-quiz/static/js/2.f7e437e3.chunk.js.LICENSE.txt"
+    "static/css/main.10c89899.chunk.css.map": "/react-linkedin-quiz/static/css/main.10c89899.chunk.css.map",
+    "static/js/2.8bd0ba1a.chunk.js.LICENSE.txt": "/react-linkedin-quiz/static/js/2.8bd0ba1a.chunk.js.LICENSE.txt",
+    "static/media/questionnaire.da1f0384.svg": "/react-linkedin-quiz/static/media/questionnaire.da1f0384.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.61107eae.js",
-    "static/js/2.f7e437e3.chunk.js",
-    "static/css/main.f32ad09b.chunk.css",
-    "static/js/main.06c54c33.chunk.js"
+    "static/js/runtime-main.501fbb64.js",
+    "static/js/2.8bd0ba1a.chunk.js",
+    "static/css/main.10c89899.chunk.css",
+    "static/js/main.e8d6402e.chunk.js"
   ]
 }
