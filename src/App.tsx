@@ -1,36 +1,19 @@
-import React, { useEffect, useState } from 'react';
-import {MdFileProcessor, Quiz} from 'quiz-too';
-import logo from './logo.svg';
-import './App.css';
+import "./css/index.css";
+import Homepage from "./components/Homepage/Homepage";
+import Example from "./components/Example/Example";
+import { HashRouter, Route } from "react-router-dom";
+import Practice from "./components/Practice/Practice";
 
-function App() {
-  const [quiz, setQuiz] = useState<Quiz>()
-  useEffect(()=>{
-    fetch('https://raw.githubusercontent.com/Ebazhanov/linkedin-skill-assessments-quizzes/master/css/css-quiz.md').then(response=>response.text()).then(content=>{
-      const mdFileProcessor = new MdFileProcessor(content);
-      const quiz = mdFileProcessor.getQuiz();
-      setQuiz(quiz);
-    })
-  })
+function App(): JSX.Element {
+  // return <Homepage />;
+  // return <Example/>
 
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.tsx</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
-    <pre>{JSON.stringify(quiz?.getChallenges(), undefined, 2)}</pre>
+    <HashRouter basename="/">
+      <Route exact path="/" component={Homepage} />
+      <Route exact path="/example" component={Example} />
+      <Route path="/practice/:encodedUrl" component={Practice} />
+    </HashRouter>
   );
 }
 
