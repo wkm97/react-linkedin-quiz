@@ -3,17 +3,20 @@ import Homepage from "./components/Homepage/Homepage";
 import Example from "./components/Example/Example";
 import { HashRouter, Route } from "react-router-dom";
 import Practice from "./components/Practice/Practice";
+import { ThemeProvider } from "./themeContext";
 
 function App(): JSX.Element {
   // return <Homepage />;
   // return <Example/>
 
   return (
-    <HashRouter basename="/">
-      <Route exact path="/" component={Homepage} />
-      <Route exact path="/example" component={Example} />
-      <Route path="/practice/:encodedUrl" component={Practice} />
-    </HashRouter>
+    <ThemeProvider>
+      <HashRouter basename="/">
+        <Route exact path="/" component={Homepage} />
+        <Route exact path="/example" component={Example} />
+        <Route exact path="/practice/:encodedUrl" component={Practice} />
+      </HashRouter>
+    </ThemeProvider>
   );
 }
 

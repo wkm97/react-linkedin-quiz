@@ -149,7 +149,8 @@ const SingleChoice = (props: singleChoiceProps) => {
               })}
             </div>
             <button
-              className={`block p-2 font-bold uppercase transition duration-200 ease-in-out ${getButtonClassname()} text-gray-100 rounded-lg m-1 transform hover:-translate-y-1 hover:scale-110 hover:bg-primary-600 focus:outline-none`}
+              // className={`block p-2 font-bold uppercase transition duration-200 ease-in-out ${getButtonClassname()} text-gray-100 rounded-lg m-1 transform hover:-translate-y-1 hover:scale-110 hover:bg-primary-600 focus:outline-none`}
+              className={`block p-2 font-bold uppercase transition duration-200 ease-in-out ${getButtonClassname()} text-gray-100 rounded-lg m-1 transform xl:hover:-translate-y-1 xl:hover:scale-110 xl:hover:bg-primary-600 focus:outline-none`}
               type="submit"
             >
               Check

@@ -36,6 +36,7 @@ const LinkedInAssessment = (props: { className?: string }): JSX.Element => {
           type="search"
           name="filter-assessment"
           id="filter-assessment"
+          autoComplete="off"
           placeholder="Filter LinkedIn Assessment"
           className="bg-gray-50 dark:bg-gray-800 w-full outline-none focus:outline-none active:outline-none"
           onChange={(e) => handleSearchBarChange(e)}
